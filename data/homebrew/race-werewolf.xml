@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Werewolf (Homebrew)</name>
+    <author>Khashayar Sepehri</author>
+    <description>Werewolf race: shapechanger with lycanthropic traits.</description>
+    <update version="1.0" date="2025-09-21"/>
+  </info>
+
+  <element name="Werewolf" type="Race" source="Khashayar Homebrew" id="race-werewolf">
+    <description>
+      <p class="flavor">A humanoid cursed with lycanthropy, capable of shifting between humanoid, wolf, and hybrid forms.</p>
+      <h4>LYCANTHROPIC NATURE</h4>
+      <p>Werewolves appear as humans, wolves, or hybrids of both. Their senses and reflexes are enhanced.</p>
+      <h4>TRAITS</h4>
+      <p><span class="feature">Ability Score Increase.</span> Your Strength score increases by 2, and your Dexterity score increases by 1.</p>
+      <p><span class="feature">Age.</span> Werewolves mature like humans and can live up to 90 years.</p>
+      <p><span class="feature">Alignment.</span> Often chaotic.</p>
+      <p><span class="feature">Size.</span> Medium.</p>
+      <p><span class="feature">Speed.</span> Base walking speed 30 ft.; in wolf form speed 40 ft.</p>
+      <p><span class="feature">Keen Hearing and Smell.</span> You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+      <p><span class="feature">Shapechanger.</span> You can use an action to shift between humanoid, wolf, and hybrid forms. Equipment does not transform automatically (DM discretion).</p>
+      <p><span class="feature">Lycanthropic Immunity.</span> You are immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that are not silvered. (Use with DM approval.)</p>
+    </description>
+
+    <sheet display="false"/>
+
+    <setters>
+      <set name="height" modifier="2d10">6'0"</set>
+      <set name="weight" modifier="2d12">180 lb.</set>
+      <set name="speed">30</set>
+      <set name="speed:wolf">40</set>
+    </setters>
+
+    <rules>
+      <stat name="strength" value="2"/>
+      <stat name="dexterity" value="1"/>
+      <stat name="speed" value="30"/>
+      <grant type="Size" id="size-medium"/>
+      <grant type="Racial Trait" id="trait-keen-hearing-smell"/>
+      <grant type="Racial Trait" id="trait-shapechanger"/>
+      <grant type="Racial Trait" id="trait-lycanthropic-immunity"/>
+    </rules>
+  </element>
+
+  <element name="Keen Hearing and Smell" type="Racial Trait" source="Khashayar Homebrew" id="trait-keen-hearing-smell">
+    <description>
+      <p>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+    </description>
+  </element>
+
+  <element name="Shapechanger" type="Racial Trait" source="Khashayar Homebrew" id="trait-shapechanger">
+    <description>
+      <p>You can use an action to shift between humanoid, wolf, and hybrid forms. Equipment does not transform automatically.</p>
+    </description>
+  </element>
+
+  <element name="Lycanthropic Immunity" type="Racial Trait" source="Khashayar Homebrew" id="trait-lycanthropic-immunity">
+    <description>
+      <p>You are immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that are not silvered.</p>
+    </description>
+  </element>
+
+  <element name="Bite" type="Action" source="Khashayar Homebrew" id="action-bite">
+    <description>
+      <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 piercing damage. Target must succeed on a DC 12 Constitution save or risk contracting lycanthropy (DM's call).</p>
+    </description>
+  </element>
+
+  <element name="Claws" type="Action" source="Khashayar Homebrew" id="action-claws">
+    <description>
+      <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2d4+2 slashing damage.</p>
+    </description>
+  </element>
+
+  <element name="Multiattack" type="Action" source="Khashayar Homebrew" id="action-multiattack">
+    <description>
+      <p>You can make two attacks: one with your bite and one with your claws.</p>
+    </description>
+  </element>
+
+</elements>

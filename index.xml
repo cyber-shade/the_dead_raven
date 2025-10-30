@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Homebrew – Werewolf Race</name>
+    <author>Khashayar Sepehri</author>
+    <update version="1.0">2025-09-21</update>
+  </info>
+  <files>
+    <file name="race-werewolf.xml" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/main/data/homebrow/race-werewolf.xml" />
+  </files>
+</index>
