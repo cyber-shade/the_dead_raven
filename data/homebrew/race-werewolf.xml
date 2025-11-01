@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Werewolf</name>
+		<description></description>
+    <author url="">Khashayar Sepehri</author>
+		<update version="0.1.0">
+      <file name="race-werewolf.xml" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/refs/heads/main/data/homebrew/race-werewolf.xml"/>
+		</update>
+	</info>
   <element name="Werewolf" type="Race" source="Khashayar Homebrew" id="race-werewolf">
     <description>
       <p class="flavor">A humanoid cursed with lycanthropy, capable of shifting between humanoid, wolf, and hybrid forms.</p>
@@ -29,47 +37,76 @@
       <stat name="strength" value="2"/>
       <stat name="dexterity" value="1"/>
       <stat name="speed" value="30"/>
-      <grant type="Size" id="size-medium"/>
-      <grant type="Racial Trait" id="trait-keen-hearing-smell"/>
-      <grant type="Racial Trait" id="trait-shapechanger"/>
-      <grant type="Racial Trait" id="trait-lycanthropic-immunity"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Racial Trait" id="ID_KS_TRAIT_KEEN_HEARING_SMELL" />
+      <grant type="Racial Trait" id="ID_KS_TRAIT_SHAPECHANGER" />
+      <grant type="Racial Trait" id="ID_KS_TRAIT_LYCANTHROPIC_IMMUNITY" />
+      <grant type="Racial Trait" id="ID_KS_TRAIT_BITE" />
+      <grant type="Racial Trait" id="ID_KS_TRAIT_CLAWS" />
+      <grant type="Racial Trait" id="ID_KS_TRAIT_MULTIATTACK" />
     </rules>
   </element>
 
-  <element name="Keen Hearing and Smell" type="Racial Trait" source="Khashayar Homebrew" id="trait-keen-hearing-smell">
+  <element name="Keen Hearing and Smell" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_KEEN_HEARING_SMELL">
     <description>
       <p>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
     </description>
+    <sheet>
+      <description>You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+      </sheet>
   </element>
 
-  <element name="Shapechanger" type="Racial Trait" source="Khashayar Homebrew" id="trait-shapechanger">
+  <element name="Shapechanger" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_SHAPECHANGER">
     <description>
       <p>You can use an action to shift between humanoid, wolf, and hybrid forms. Equipment does not transform automatically.</p>
     </description>
+    <sheet>
+      <description>You can use an action to shift between humanoid, wolf, and hybrid forms. Equipment does not transform automatically.</description>
+    </sheet>
   </element>
 
-  <element name="Lycanthropic Immunity" type="Racial Trait" source="Khashayar Homebrew" id="trait-lycanthropic-immunity">
+  <element name="Lycanthropic Immunity" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_LYCANTHROPIC_IMMUNITY">
     <description>
       <p>You are immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that are not silvered.</p>
     </description>
+    <sheet>
+      <description>You are immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that are not silvered.</description>
+    </sheet>
   </element>
 
-  <element name="Bite" type="Action" source="Khashayar Homebrew" id="action-bite">
+  <element name="Bite" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_BITE">
     <description>
       <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 piercing damage. Target must succeed on a DC 12 Constitution save or risk contracting lycanthropy (DM's call).</p>
     </description>
+    <sheet>
+      <description>
+        Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 piercing damage. Target must succeed on a DC 12 Constitution save or risk contracting lycanthropy (DM's call).
+      </description>
+    </sheet>
   </element>
 
-  <element name="Claws" type="Action" source="Khashayar Homebrew" id="action-claws">
+  <element name="Claws" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_CLAWS">
+    
     <description>
       <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2d4+2 slashing damage.</p>
     </description>
+    <sheet>
+      <description>
+        Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2d4+2 slashing damage.
+    </description>
+    </sheet>
   </element>
 
-  <element name="Multiattack" type="Action" source="Khashayar Homebrew" id="action-multiattack">
+  <element name="Multiattack" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_MULTIATTACK">
+    
     <description>
       <p>You can make two attacks: one with your bite and one with your claws.</p>
     </description>
+    <sheet>
+      <description>
+      You can make two attacks: one with your bite and one with your claws.
+      </description>
+    </sheet>
   </element>
 
 </elements>

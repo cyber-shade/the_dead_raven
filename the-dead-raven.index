@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Khashayar Sepehri Homebrew</name>
+    <author url="">Khashayar Sepehri</author>
+    <description>Custom homebrew race for Aurora Builder.</description>
+    <update version="0.1.0">
+      <file name="the-dead-raven.index" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/refs/heads/main/the-dead-raven.index" />
+    </update>
+  </info>
+  <files>
+	<file name="race-werewolf.xml" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/refs/heads/main/data/homebrew/race-werewolf.xml" />
+	</files>
+</index>
