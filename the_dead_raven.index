@@ -5,7 +5,6 @@
     <author>Khashayar Sepehri</author>
     <description>Custom homebrew races for Aurora Builder.</description>
     <update version="1.0" date="2025-10-30">
-      <file name="race-werewolf.xml" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/main/data/homebrew/race-werewolf.xml" />
       <file name="races.xml" url="https://raw.githubusercontent.com/username/repo/main/data/homebrew/races.xml" />
     </update>
   </info>
