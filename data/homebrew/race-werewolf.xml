@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-  <info>
-    <name>Werewolf (Homebrew)</name>
-    <author>Khashayar Sepehri</author>
-    <description>Werewolf race: shapechanger with lycanthropic traits.</description>
-    <update version="1.0" date="2025-09-21"/>
-  </info>
-
   <element name="Werewolf" type="Race" source="Khashayar Homebrew" id="race-werewolf">
     <description>
       <p class="flavor">A humanoid cursed with lycanthropy, capable of shifting between humanoid, wolf, and hybrid forms.</p>
