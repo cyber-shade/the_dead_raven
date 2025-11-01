@@ -22,6 +22,9 @@
       <p><span class="feature">Keen Hearing and Smell.</span> You have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
       <p><span class="feature">Shapechanger.</span> You can use an action to shift between humanoid, wolf, and hybrid forms. Equipment does not transform automatically (DM discretion).</p>
       <p><span class="feature">Lycanthropic Immunity.</span> You are immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that are not silvered. (Use with DM approval.)</p>
+      <p><span class="feature">Bite (Hybrid or Wolf Form Only).</span> Melee Weapon Attack: Proficiency bonus to hit, reach 5 ft., one target. Hit: 1d8 + Strength modifier piercing damage. Target must succeed on a DC 8 + proficiency bonus + Constitution modifier Constitution save or risk contracting lycanthropy (DM's call).</p>
+      <p><span class="feature">Claws (Hybrid Form Only).</span> Melee Weapon Attack: Proficiency bonus to hit, reach 5 ft., one target. Hit: 2d4 + Strength modifier slashing damage.</p>
+      <p><span class="feature">Multiattack (Hybrid Form Only).</span> You can make two attacks: one with your bite and one with your claws.</p>
     </description>
 
     <sheet display="false"/>
@@ -76,7 +79,7 @@
 
   <element name="Bite" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_BITE">
     <description>
-      <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 piercing damage. Target must succeed on a DC 12 Constitution save or risk contracting lycanthropy (DM's call).</p>
+      <p>Melee Weapon Attack: Proficiency bonus to hit, reach 5 ft., one target. Hit: 1d8 + Strength modifier piercing damage. Target must succeed on a DC 8 + proficiency bonus + Constitution modifier Constitution save or risk contracting lycanthropy (DM's call). Usable in hybrid or wolf form only.</p>
     </description>
     <sheet>
       <description>
@@ -88,7 +91,7 @@
   <element name="Claws" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_CLAWS">
     
     <description>
-      <p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2d4+2 slashing damage.</p>
+      <p>Melee Weapon Attack: Proficiency bonus to hit, reach 5 ft., one target. Hit: 2d4 + Strength modifier slashing damage. Usable in hybrid form only.</p>
     </description>
     <sheet>
       <description>
@@ -100,7 +103,7 @@
   <element name="Multiattack" type="Racial Trait" source="Khashayar Homebrew" id="ID_KS_TRAIT_MULTIATTACK">
     
     <description>
-      <p>You can make two attacks: one with your bite and one with your claws.</p>
+      <p>You can make two attacks: one with your bite and one with your claws. Usable in hybrid form only.</p>
     </description>
     <sheet>
       <description>
