@@ -1,0 +1,1071 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<elements>
+  <info>
+    <name>Kindred — GM Binder homebrew</name>
+    <description>Unofficial 5e Kindred class, four bloodlines and Vampiric Powers transcribed from the provided GM Binder PDF.</description>
+    <author>Original author not stated in supplied PDF</author>
+  </info>
+  <element name="Kindred" type="Class" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_CLASS">
+    <description>
+      <p>A homebrew undead vampire class powered by hit point dice (HPD) and a set of selectable Vampiric Powers. This is the GM Binder Kindred class in the supplied PDF, not the D&amp;D Beyond Kindred class.</p>
+      <h5>HIT POINTS</h5>
+      <p>Hit Dice: 1d12 per kindred level; at 1st level: 12 + your Constitution modifier; at later levels: 1d12 (or 7) + your Constitution modifier per kindred level after 1st.</p>
+      <h5>PROFICIENCIES</h5>
+      <p>Armor: None. Weapons: Simple weapons. Tools: Choose one type of artisan’s tools or musical instrument. Saving Throws: Strength and Charisma. Skills: Choose three from Acrobatics, Arcana, Athletics, Deception, History, Insight, Intimidation, Perception, Persuasion, Religion, Stealth, Sleight of Hand, and Survival.</p>
+      <h5>STARTING EQUIPMENT</h5>
+      <p>(a) a light crossbow and 20 bolts or (b) any simple weapon; (a) a scholar’s pack or (b) a diplomat’s pack; two daggers, plus your background equipment.</p>
+      <h5>THE KINDRED</h5>
+      <table class="class-features">
+        <tr>
+          <td>Level</td>
+          <td>Proficiency Bonus</td>
+          <td>Features</td>
+          <td>Vampiric Powers</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>Kindred Curse, Deceptive Power, Unarmored Defense, Vampiric Consumption</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>2</td>
+          <td>Savage Lash, Virile Soul</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>2</td>
+          <td>Kindred Bloodline</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>2</td>
+          <td>Ability Score Improvement</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>3</td>
+          <td>Unfettered Predation</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>3</td>
+          <td>Shapechange (Bat Form)</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>3</td>
+          <td>Bloodline Power</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>3</td>
+          <td>Ability Score Improvement, Spider Climb</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>4</td>
+          <td>Domineering Gaze</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>4</td>
+          <td>Noble Kindred, Shapechange (Mist Form)</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>4</td>
+          <td>Bloodline Power</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>4</td>
+          <td>Ability Score Improvement</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>5</td>
+          <td>—</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>5</td>
+          <td>Bloodline Power</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>5</td>
+          <td>Shapechange (Bat Swarm Form)</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>5</td>
+          <td>Ability Score Improvement</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>6</td>
+          <td>Bloodline Power</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>6</td>
+          <td>Royal Kindred</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>6</td>
+          <td>Ability Score Improvement</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>6</td>
+          <td>Bloodline Power</td>
+          <td>14</td>
+        </tr>
+      </table>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_KINDRED_CURSE"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_DECEPTIVE_POWER"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_UNARMORED_DEFENSE"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VAMPIRIC_CONSUMPTION"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VIRILE_SOUL"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SAVAGE_LASH"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_KINDRED_BLOODLINE"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_ABILITY_SCORE_IMPROVEMENT"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_UNFETTERED_PREDATION"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SHAPECHANGE"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SPIDER_CLIMB"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_DOMINEERING_GAZE"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_NOBLE_KINDRED"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_ROYAL_KINDRED"/>
+      <div element="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VAMPIRIC_POWERS"/>
+    </description>
+    <setters>
+      <set name="hd">d12</set>
+      <set name="short">An undead vampire drawing strength from stolen hit dice and supernatural powers.</set>
+    </setters>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA"/>
+      <select type="Proficiency" name="Skill Proficiency (Kindred)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_SURVIVAL" number="3"/>
+      <select type="Proficiency" name="Artisan Tools or Musical Instrument (Kindred)" supports="Musical Instrument||Artisan tools"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_DECEPTIVE_POWER" level="1"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_UNARMORED_DEFENSE" level="1"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VAMPIRIC_CONSUMPTION" level="1"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VIRILE_SOUL" level="2"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SAVAGE_LASH" level="2"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_KINDRED_BLOODLINE" level="3"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_UNFETTERED_PREDATION" level="5"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SHAPECHANGE" level="6"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SPIDER_CLIMB" level="8"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_DOMINEERING_GAZE" level="9"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_NOBLE_KINDRED" level="10"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_ROYAL_KINDRED" level="18"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_KINDRED_CURSE" level="1"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_ABILITY_SCORE_IMPROVEMENT" level="4"/>
+      <grant type="Class Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VAMPIRIC_POWERS" level="1"/>
+    </rules>
+  </element>
+  <element name="Deceptive Power" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_DECEPTIVE_POWER">
+    <description>
+      <p>The kindred may add their charisma modifier to melee damage in addition to any other damage bonus. Additionally kindreds can chose to deal piercing or slashing damage when making unarmed strikes. Unarmed strikes that do not deal bludgeon damage are made with their nails or teeth.</p>
+    </description>
+    <sheet>
+      <description>The kindred may add their charisma modifier to melee damage in addition to any other damage bonus. Additionally kindreds can chose to deal piercing or slashing damage when making unarmed strikes. Unarmed strikes that do not deal bludgeon damage are made with their nails or teeth.</description>
+    </sheet>
+    <rules>
+      <stat name="melee:damage" value="charisma:modifier"/>
+    </rules>
+  </element>
+  <element name="Unarmored Defense" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_UNARMORED_DEFENSE">
+    <description>
+      <p>While the kindred is wearing no armor and no shield, their AC is 10 + their dexterity modifier + their charisma modifier. If the kindred has any other method of determining AC they use whichever method is most favorable.</p>
+    </description>
+    <sheet>
+      <description>While the kindred is wearing no armor and no shield, their AC is 10 + their dexterity modifier + their charisma modifier. If the kindred has any other method of determining AC they use whichever method is most favorable.</description>
+    </sheet>
+    <rules>
+      <stat name="ac:unarmored defense kindred:base" value="10"/>
+      <stat name="ac:unarmored defense kindred:dexterity" value="dexterity:modifier"/>
+      <stat name="ac:unarmored defense kindred:charisma" value="charisma:modifier"/>
+      <stat name="ac:unarmored defense kindred" value="ac:unarmored defense kindred:base"/>
+      <stat name="ac:unarmored defense kindred" value="ac:unarmored defense kindred:dexterity"/>
+      <stat name="ac:unarmored defense kindred" value="ac:unarmored defense kindred:charisma"/>
+      <stat name="ac:calculation" value="ac:unarmored defense kindred" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Kindred)"/>
+    </rules>
+  </element>
+  <element name="Vampiric Consumption" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VAMPIRIC_CONSUMPTION">
+    <description>
+      <p>Starting at the 1st level the kindred gains the ability to steal HPD form its enemies. If the kindred deals damage with an unarmed attack, as a bonus action, they may deal an extra 1d10 damage and the target loses 1 hit point die. The kindred gains 1 hit point die. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a Long Rest. After a short rest, an ally may choose to lose a number of hit point die to grant you twice that amount of healing. The kindred's current HPD may exceed their maximum by their proficiency bonus, but any HPD above their maximum are lost after 1 hour or a short rest.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 1st level the kindred gains the ability to steal HPD form its enemies. If the kindred deals damage with an unarmed attack, as a bonus action, they may deal an extra 1d10 damage and the target loses 1 hit point die. The kindred gains 1 hit point die. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a Long Rest. After a short rest, an ally may choose to lose a number of hit point die to grant you twice that amount of healing. The kindred's current HPD may exceed their maximum by their proficiency bonus, but any HPD above their maximum are lost after 1 hour or a short rest.</description>
+    </sheet>
+  </element>
+  <element name="Virile Soul" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VIRILE_SOUL">
+    <description>
+      <p>At the 2nd level, The kindred regains class level hit points at the start of its turn if it is bloodied, has at least 1 hit point and isn't in sunlight or running water. If the kindred takes radiant damage or damage from holy water, this class feature doesn't function at the start of the kindred's next turn. The kindred takes 1 level of exhaustion if it ends its turn in running water. This death results in you being reduced to a pool of red liquid. You can be restored to life only by means of a true resurrection (returns you to life losing all class levels) or a wish spell.</p>
+    </description>
+    <sheet>
+      <description>At the 2nd level, The kindred regains class level hit points at the start of its turn if it is bloodied, has at least 1 hit point and isn't in sunlight or running water. If the kindred takes radiant damage or damage from holy water, this class feature doesn't function at the start of the kindred's next turn. The kindred takes 1 level of exhaustion if it ends its turn in running water. This death results in you being reduced to a pool of red liquid. You can be restored to life only by means of a true resurrection (returns you to life losing all class levels) or a wish spell.</description>
+    </sheet>
+  </element>
+  <element name="Savage Lash" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SAVAGE_LASH">
+    <description>
+      <p>Starting at the 2nd level, the kindred may expend a HPD to make an unarmed attack dealing 2d12 bludgeon or slashing damage instead of 1. An additional HPD can be expended to attack a second creature, or deal an additional 1d12 damage.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 2nd level, the kindred may expend a HPD to make an unarmed attack dealing 2d12 bludgeon or slashing damage instead of 1. An additional HPD can be expended to attack a second creature, or deal an additional 1d12 damage.</description>
+    </sheet>
+  </element>
+  <element name="Kindred Bloodline" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_KINDRED_BLOODLINE">
+    <description>
+      <p>At 3rd level, the kindred chooses to what bloodline they were infected with, such as Nosferatu. Their choice grants them features at 3rd level and again at 6th, 10th, and 14th level.</p>
+      <p>Refer to the bloodline features listed at 3rd, 7th, 11th, 14th, 17th, and 20th levels in the source. (The introduction describes a different progression.)</p>
+    </description>
+    <rules>
+      <select type="Archetype" name="Kindred Bloodline" supports="Kindred Bloodline" level="3"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_ABILITY_SCORE_IMPROVEMENT">
+    <description>
+      <p>When the kindred reaches 4th level, and again at 8th, 12th, 16th, and 19th level, they can increase one ability score of their choice by 2, or they can increase two ability scores of their choice by 1. As normal, you can't increase an ability score above 20 using this feature</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Class Feature" name="Improvement Option (Kindred 4)" supports="Improvement Option,Kindred,4" level="4"/>
+      <select type="Class Feature" name="Improvement Option (Kindred 8)" supports="Improvement Option,Kindred,8" level="8"/>
+      <select type="Class Feature" name="Improvement Option (Kindred 12)" supports="Improvement Option,Kindred,12" level="12"/>
+      <select type="Class Feature" name="Improvement Option (Kindred 16)" supports="Improvement Option,Kindred,16" level="16"/>
+      <select type="Class Feature" name="Improvement Option (Kindred 19)" supports="Improvement Option,Kindred,19" level="19"/>
+    </rules>
+  </element>
+  <element name="Unfettered Predation" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_UNFETTERED_PREDATION">
+    <description>
+      <p>At the 5th level, a kindred may enter a state of primal fury. In this state the kindred deals an additional 2 damage with melee attacks, and gains damage resistance against all nonmagical attacks. If the kindred is able to cast spells, they can't cast them or concentrate on them while in this state. The state lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your sate on your turn as a bonus action. You may only enter unfettered predation twice per long rest.</p>
+    </description>
+    <sheet>
+      <description>At the 5th level, a kindred may enter a state of primal fury. In this state the kindred deals an additional 2 damage with melee attacks, and gains damage resistance against all nonmagical attacks. If the kindred is able to cast spells, they can't cast them or concentrate on them while in this state. The state lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your sate on your turn as a bonus action. You may only enter unfettered predation twice per long rest.</description>
+    </sheet>
+  </element>
+  <element name="Shapechange" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SHAPECHANGE">
+    <description>
+      <p>Starting at the 6th level, if the kindred isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or back into its true form. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. At the 10th level they gain the ability to polymorph into a Medium cloud of mist in addition to their other forms. At the 15th level the kindred can polymorph into a Large swarm of tiny bats.</p>
+      <p>Bat Form: While in bat form, the kindred can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. It reverts to its true form if it dies.</p>
+      <p>Mist Form: While in mist form, the kindred can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight. It reverts to its true form if it dies.</p>
+      <p>Bat Swarm Form: While in bat swarm form, the kindred has the same rules as bat from, with the following changes. The kindred may make an attack against anyone in the cloud when spending an action to attack. It has advantage on Strength, Dexterity, and Constitution saving throws, and it has resistance to all nonmagical damage, except the damage it takes from sunlight. It reverts to its true form if it dies.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 6th level, if the kindred isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or back into its true form. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. At the 10th level they gain the ability to polymorph into a Medium cloud of mist in addition to their other forms. At the 15th level the kindred can polymorph into a Large swarm of tiny bats. Bat Form: While in bat form, the kindred can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. It reverts to its true form if it dies. Mist Form: While in mist form, the… (See full feature in builder.)</description>
+    </sheet>
+  </element>
+  <element name="Spider Climb" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_SPIDER_CLIMB">
+    <description>
+      <p>With a bizarre normality the kindred strides up walls as if they were the floor. Begining at the 8th level, the kindred can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+    </description>
+    <sheet>
+      <description>With a bizarre normality the kindred strides up walls as if they were the floor. Begining at the 8th level, the kindred can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</description>
+    </sheet>
+  </element>
+  <element name="Domineering Gaze" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_DOMINEERING_GAZE">
+    <description>
+      <p>Beginning at the 9th level, the kindred may cast dominate person once per long rest. If they end their turn adjacent to the dominated target, they can make a speical attack. Instead of dealing damage this attack grants a number of HPD equal to half the targets current HPD. The target loses an equal amount of HPD, and takes damage equal to the lost HPD (roll or use the average; GM's discretion). Making the attack instantly ends the domination.</p>
+    </description>
+    <sheet>
+      <description>Beginning at the 9th level, the kindred may cast dominate person once per long rest. If they end their turn adjacent to the dominated target, they can make a speical attack. Instead of dealing damage this attack grants a number of HPD equal to half the targets current HPD. The target loses an equal amount of HPD, and takes damage equal to the lost HPD (roll or use the average; GM's discretion). Making the attack instantly ends the domination.</description>
+    </sheet>
+  </element>
+  <element name="Noble Kindred" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_NOBLE_KINDRED">
+    <description>
+      <p>Starting at the 10th level, the kindred may choose to deal necrotic damage with its unarmed strikes. When a kindred deal damage with unarmed strike or a kindred class feature to a living creature, if damage equal to the target's HPD is dealt, the kindred gains 1 HPD.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 10th level, the kindred may choose to deal necrotic damage with its unarmed strikes. When a kindred deal damage with unarmed strike or a kindred class feature to a living creature, if damage equal to the target's HPD is dealt, the kindred gains 1 HPD.</description>
+    </sheet>
+  </element>
+  <element name="Royal Kindred" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_ROYAL_KINDRED">
+    <description>
+      <p>Beginning at the 18th level the kindred is considered royalty among its kind. The Kindred no longer requires sustenance of food, water, or blood. Additionally they may enter a state of hibernation until a predetermined condition or time. After which the kindred royal awakens over the course of 1 minute. During the hibernation the kindred has the appearance of cut marble. The kindred may target other kindreds as if they were humanoids and living.</p>
+    </description>
+    <sheet>
+      <description>Beginning at the 18th level the kindred is considered royalty among its kind. The Kindred no longer requires sustenance of food, water, or blood. Additionally they may enter a state of hibernation until a predetermined condition or time. After which the kindred royal awakens over the course of 1 minute. During the hibernation the kindred has the appearance of cut marble. The kindred may target other kindreds as if they were humanoids and living.</description>
+    </sheet>
+  </element>
+  <element name="Kindred Curse" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_KINDRED_CURSE">
+    <description>
+      <p>The kindred is a child of the night. Their life if one powered by the necrotic. Undead: Kindred are undead. They are immune to anything that specifically targets the living. They do not need to breathe or drink water. They no longer age. Blood Bound: After a long rest the kindred recovers Hit Poiint Dice equal to half their maximum(min 1), any HPD above this are lost. The Thirst: Kindred do not gain sustenance from normal food and drink, but may consume it. Kindred require blood of the living, gaining a HPD from a class ability other than long rest counts as eating for the week. Starvation applies after weeks not days, the kindred suffers from starvation after 3 + thier Constitution Modifier(min 1) weeks, and gains a level of exhaustion each week instead of day. Darkvision: You have Darkvision. Necrotic Life: You have Necrotic Resistance, and Radiant Vulnerability. Class Difficulty: The kindred's class features have a saving throw DC equal to 8 + their kindreds proficiency bonus + their charisma modifier. Forbiddance: The kindred can't enter a residence without an invitation from one of the occupants.</p>
+      <p>Stake to the Heart: If a piercing weapon made of wood is driven into the kindred's heart while the kindred is incapacitated in its resting place, the kindred is paralyzed until the stake is removed. Sunlight Hypersensitivity: The kindred takes 1 level of exhaustion when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks. Heavy clothing can protect against this such a as a cloak or parasol. This death results in you being reduced to a pile of fine gray dust. You can be restored to life only by means of a true resurrection (returns you to life losing all class levels) or a wish spell.</p>
+      <p>Rules note: The document does not specify a darkvision distance; Aurora defaults to the standard darkvision vision element.</p>
+    </description>
+    <sheet>
+      <description>The kindred is a child of the night. Their life if one powered by the necrotic. Undead: Kindred are undead. They are immune to anything that specifically targets the living. They do not need to breathe or drink water. They no longer age. Blood Bound: After a long rest the kindred recovers Hit Poiint Dice equal to half their maximum(min 1), any HPD above this are lost. The Thirst: Kindred do not gain sustenance from normal food and drink, but may consume it. Kindred require blood of the living, gaining a HPD from a class ability other than long rest counts as eating for the week. Starvation applies after weeks not days, the kindred suffers from starvation after 3 + thier Constitution Modifier(min 1) weeks, and gains… (See full feature in builder.)</description>
+    </sheet>
+    <rules>
+      <grant type="Vision" id="ID_VISION_DARKVISION"/>
+      <stat name="resistance:necrotic" value="1"/>
+    </rules>
+  </element>
+  <element name="Vampiric Powers" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEATURE_VAMPIRIC_POWERS">
+    <description>
+      <p>Unless otherwise stated vampiric powers take no action to activate. If a vampiric power has a number of uses, it may be taken multiple times increasing the number of times it can be used by the same amount. Unless specified otherwise only one vampiric power can trigger because of particular event.</p>
+      <p>Choose the number of Vampiric Powers indicated by the Kindred class table. A power with limited uses may be selected multiple times, increasing uses by the same amount; Aurora may require a manual note for repeat selections.</p>
+    </description>
+    <rules>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 1)" supports="Kindred Vampiric Power" level="1" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 3)" supports="Kindred Vampiric Power" level="3" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 5)" supports="Kindred Vampiric Power" level="5" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 6)" supports="Kindred Vampiric Power" level="6" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 7)" supports="Kindred Vampiric Power" level="7" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 9)" supports="Kindred Vampiric Power" level="9" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 11)" supports="Kindred Vampiric Power" level="11" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 12)" supports="Kindred Vampiric Power" level="12" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 13)" supports="Kindred Vampiric Power" level="13" number="2"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 14)" supports="Kindred Vampiric Power" level="14" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 15)" supports="Kindred Vampiric Power" level="15" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 17)" supports="Kindred Vampiric Power" level="17" number="1"/>
+      <select type="Class Feature" name="Vampiric Power (Kindred Level 20)" supports="Kindred Vampiric Power" level="20" number="1"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ASI_4">
+    <supports>Improvement Option, Kindred, 4</supports>
+    <description>
+      <p>Increase one ability score by 2, or increase two ability scores by 1 (maximum 20, unless another feature says otherwise).</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase (Kindred 4)" supports="Ability Score Improvement,Class" number="2"/>
+    </rules>
+  </element>
+  <element name="Feat" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEAT_4">
+    <supports>Improvement Option, Kindred, 4</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>Select a feat instead of an ability score improvement, if your table permits feats.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Feat" name="Feat (Kindred 4)" supports="Feat"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ASI_8">
+    <supports>Improvement Option, Kindred, 8</supports>
+    <description>
+      <p>Increase one ability score by 2, or increase two ability scores by 1 (maximum 20, unless another feature says otherwise).</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase (Kindred 8)" supports="Ability Score Improvement,Class" number="2"/>
+    </rules>
+  </element>
+  <element name="Feat" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEAT_8">
+    <supports>Improvement Option, Kindred, 8</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>Select a feat instead of an ability score improvement, if your table permits feats.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Feat" name="Feat (Kindred 8)" supports="Feat"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ASI_12">
+    <supports>Improvement Option, Kindred, 12</supports>
+    <description>
+      <p>Increase one ability score by 2, or increase two ability scores by 1 (maximum 20, unless another feature says otherwise).</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase (Kindred 12)" supports="Ability Score Improvement,Class" number="2"/>
+    </rules>
+  </element>
+  <element name="Feat" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEAT_12">
+    <supports>Improvement Option, Kindred, 12</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>Select a feat instead of an ability score improvement, if your table permits feats.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Feat" name="Feat (Kindred 12)" supports="Feat"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ASI_16">
+    <supports>Improvement Option, Kindred, 16</supports>
+    <description>
+      <p>Increase one ability score by 2, or increase two ability scores by 1 (maximum 20, unless another feature says otherwise).</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase (Kindred 16)" supports="Ability Score Improvement,Class" number="2"/>
+    </rules>
+  </element>
+  <element name="Feat" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEAT_16">
+    <supports>Improvement Option, Kindred, 16</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>Select a feat instead of an ability score improvement, if your table permits feats.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Feat" name="Feat (Kindred 16)" supports="Feat"/>
+    </rules>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ASI_19">
+    <supports>Improvement Option, Kindred, 19</supports>
+    <description>
+      <p>Increase one ability score by 2, or increase two ability scores by 1 (maximum 20, unless another feature says otherwise).</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase (Kindred 19)" supports="Ability Score Improvement,Class" number="2"/>
+    </rules>
+  </element>
+  <element name="Feat" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_FEAT_19">
+    <supports>Improvement Option, Kindred, 19</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>Select a feat instead of an ability score improvement, if your table permits feats.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Feat" name="Feat (Kindred 19)" supports="Feat"/>
+    </rules>
+  </element>
+  <element name="Bloodbond" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_BLOODBOND">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:10]</requirements>
+    <prerequisite>Kindred level 10</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 10th level</em>
+      </p>
+      <p>The kindred slowly digs its teeth into its wrist. Blood dripping it squeezes the blood into the corpses mouth. After a moment the corpse lunges forward gasping to life. By expending 3 HPD and gaining 2 levels of exhaustion, the kindred may revive someone that died in the last minute. After 2 rounds the creature revives at half its maximum hit points, and may trade any number of levels for vampire levels.</p>
+    </description>
+    <sheet>
+      <description>The kindred slowly digs its teeth into its wrist. Blood dripping it squeezes the blood into the corpses mouth. After a moment the corpse lunges forward gasping to life. By expending 3 HPD and gaining 2 levels of exhaustion, the kindred may revive someone that died in the last minute. After 2 rounds the creature revives at half its maximum hit points, and may trade any number of levels for vampire levels.</description>
+    </sheet>
+  </element>
+  <element name="Bloodwolf Form" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_BLOODWOLF_FORM">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:6]</requirements>
+    <prerequisite>Kindred level 6</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 6th level</em>
+      </p>
+      <p>The kindred discorporates reforming into a wolf made of shadow and blood wisps. The kindred gains the ability to polymorph into a Medium bloodwolf, as a bonus action. Bloodwolf form lasts 1 round, and can be extended to 1 hour, by expending 1 HPD. While in bloodwolf form, the kindred has the following traits. It loses the ability to attack. It's walking speed is 50ft. It has darkvision. It ignores difficult terrain. It gains advantage on athletics, perception, and stealth checks. Leaving Blood wolf form is a free action.</p>
+    </description>
+    <sheet>
+      <description>The kindred discorporates reforming into a wolf made of shadow and blood wisps. The kindred gains the ability to polymorph into a Medium bloodwolf, as a bonus action. Bloodwolf form lasts 1 round, and can be extended to 1 hour, by expending 1 HPD. While in bloodwolf form, the kindred has the following traits. It loses the ability to attack. It's walking speed is 50ft. It has darkvision. It ignores difficult terrain. It gains advantage on athletics, perception, and stealth checks. Leaving Blood wolf form is a free action.</description>
+    </sheet>
+  </element>
+  <element name="Bloodwolf Alpha Form" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_BLOODWOLF_ALPHA_FORM">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:20],ID_HOMEBREW_GMBINDER_KINDRED_POWER_BLOODWOLF_FORM</requirements>
+    <prerequisite>Kindred level 20, Bloodwolf Form</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 20th level, Bloodwolf Form</em>
+      </p>
+      <p>The kindred discorporates to the sound of a hundred questing wolves. Then reforming into a large wolf made of shadow and blood wisps. The primal howls echo in the distance until the kindred returns to their base form. The kindred gains the ability to polymorph into a Large bloodwolf alpha, as an action, by expending 4 HPD. Bloodwolf alpha form lasts 1 hour. While in bloodwolf alpha form, the kindred has the following traits. It has a bite that deals 7d6 damage. It's walking speed is 50ft. It's flying speed is 50ft. It gains a 10ft reach Large Size It has darkvision. It ignores difficult terrain. It increases its AC by 2. Damage Resistances: acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and slashing from nonmagical attacks Damage Immunities: necrotic Condition Immunities: exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained It gains advantage on athletics, perception, and stealth checks. It has proficiency with athletics, perception, and stealth.</p>
+    </description>
+    <sheet>
+      <description>The kindred discorporates to the sound of a hundred questing wolves. Then reforming into a large wolf made of shadow and blood wisps. The primal howls echo in the distance until the kindred returns to their base form. The kindred gains the ability to polymorph into a Large bloodwolf alpha, as an action, by expending 4 HPD. Bloodwolf alpha form lasts 1 hour. While in bloodwolf alpha form, the kindred has the following traits. It has a bite that deals 7d6 damage. It's walking speed is 50ft. It's flying speed is 50ft. It gains a 10ft reach Large Size It has darkvision. It ignores difficult terrain. It increases its AC by 2. Damage Resistances: acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and… (See full feature in builder.)</description>
+    </sheet>
+  </element>
+  <element name="Crimson Wings" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_CRIMSON_WINGS">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:11]</requirements>
+    <prerequisite>Kindred level 11</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 11th level</em>
+      </p>
+      <p>The kindred may take the shape of a Small winged creature of the night; While in crimson wings form the kindred has the following triats. The kindred gains the ability to polymorph into a Small winged creature, as a bonus action. The form taken is determined upon choosing this vampiric power, example appearances: Raven, Owl, Dire Bat, etc. Crimson Wings lasts 1 round, and can be extended to 1 hour, by expending 1 HPD. While in crimson wings, the kindred has the following traits. It's walking speed is 10ft. It's flying speed is 60ft. It gains +2 to AC. It gains advantage on all saves.</p>
+    </description>
+    <sheet>
+      <description>The kindred may take the shape of a Small winged creature of the night; While in crimson wings form the kindred has the following triats. The kindred gains the ability to polymorph into a Small winged creature, as a bonus action. The form taken is determined upon choosing this vampiric power, example appearances: Raven, Owl, Dire Bat, etc. Crimson Wings lasts 1 round, and can be extended to 1 hour, by expending 1 HPD. While in crimson wings, the kindred has the following traits. It's walking speed is 10ft. It's flying speed is 60ft. It gains +2 to AC. It gains advantage on all saves.</description>
+    </sheet>
+  </element>
+  <element name="Eye of the Master" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_EYE_OF_THE_MASTER">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:15]</requirements>
+    <prerequisite>Kindred level 15</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 15th level</em>
+      </p>
+      <p>When using domineering gaze you may instead choose to cast Dominate Monster. Gain an additional use of Domineering Gaze.</p>
+    </description>
+    <sheet>
+      <description>When using domineering gaze you may instead choose to cast Dominate Monster. Gain an additional use of Domineering Gaze.</description>
+    </sheet>
+  </element>
+  <element name="Feral Domination" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_FERAL_DOMINATION">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:9]</requirements>
+    <prerequisite>Kindred level 9</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 9th level</em>
+      </p>
+      <p>When using domineering gaze you may instead choose to cast Dominate Beast. Gain an additional use of Domineering Gaze.</p>
+    </description>
+    <sheet>
+      <description>When using domineering gaze you may instead choose to cast Dominate Beast. Gain an additional use of Domineering Gaze.</description>
+    </sheet>
+  </element>
+  <element name="Gloom Walk" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_GLOOM_WALK">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred glides into one shadow and out another. The kindred teleports their move speed as a bonus action.</p>
+    </description>
+    <sheet>
+      <description>The kindred glides into one shadow and out another. The kindred teleports their move speed as a bonus action.</description>
+    </sheet>
+  </element>
+  <element name="Hellfire Blast" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_HELLFIRE_BLAST">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:7]</requirements>
+    <prerequisite>Kindred level 7</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 7th level</em>
+      </p>
+      <p>The kindred gains the ability to cast fire ball once per long rest. This fire ball is always cast at spell level equal to 1/2 class level (max 9). Unlike normal fireball half the damage is fire the other is primal evil. Good creatures take 50% more damage from this spell, and evil creatures take 50% less damage. This counts as using a spell slot.</p>
+    </description>
+    <sheet>
+      <description>The kindred gains the ability to cast fire ball once per long rest. This fire ball is always cast at spell level equal to 1/2 class level (max 9). Unlike normal fireball half the damage is fire the other is primal evil. Good creatures take 50% more damage from this spell, and evil creatures take 50% less damage. This counts as using a spell slot.</description>
+    </sheet>
+    <setters>
+      <set name="allow duplicate">true</set>
+    </setters>
+  </element>
+  <element name="Imperfect Kindred Spawn" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_IMPERFECT_KINDRED_SPAWN">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:5]</requirements>
+    <prerequisite>Kindred level 5</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 5th level</em>
+      </p>
+      <p>The when a creature dies from an attack that grants the kindred HPD, the kindred may reanimate them as a kindred spawn. Kindred Spawn last 1 round per 4 kindred levels, round up. A kindred spawn has all the traits they had in life, but have disadvantage on their rolls. Additionally they gain the Kindred Curse Class feature. The kindred can control their spawn as a bonus action. The spawn have no free will and act as if under the effect of dominate monster.</p>
+    </description>
+    <sheet>
+      <description>The when a creature dies from an attack that grants the kindred HPD, the kindred may reanimate them as a kindred spawn. Kindred Spawn last 1 round per 4 kindred levels, round up. A kindred spawn has all the traits they had in life, but have disadvantage on their rolls. Additionally they gain the Kindred Curse Class feature. The kindred can control their spawn as a bonus action. The spawn have no free will and act as if under the effect of dominate monster.</description>
+    </sheet>
+  </element>
+  <element name="Invigorating Consumption" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_INVIGORATING_CONSUMPTION">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>Whenever the kindred expends a HPD to power one of their class features they gain temporary hit points equal to one half their level until their next short rest.</p>
+    </description>
+    <sheet>
+      <description>Whenever the kindred expends a HPD to power one of their class features they gain temporary hit points equal to one half their level until their next short rest.</description>
+    </sheet>
+  </element>
+  <element name="Kindred Domicile" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_KINDRED_DOMICILE">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>
+        <em>Prerequisite: -</em>
+      </p>
+      <p>The Kindred gains the ability to claim a location unowned or that they own as their Domicile. The location can be upto one 10ft cube per level. The domicile must be a completely enclosed space, but may have a open entreance, IE as small cottage, a cave, etc. The process of claiming domicile they own takes an 8 hour ritual. If a the domicile is unowned the ritual takes 8 hours of effort each day over a 1 week period. While in the domicile any levels of exhaustion gained from Kindred Curse are temporary and recover completely after a long rest, or recover 1 per short rest. This does not effect exhaustion gained while outside of the Kindred Domicile. While in the domicile the kindred may inflict disadvantage on any target as a bonus action. If the kindred completes a long rest in their domicile, they gain Heroic Inspiration. A kindred does not need to roll Hit Point Die while in a Kindred Domicile, they always recover the maximum Hit Points.</p>
+    </description>
+    <sheet>
+      <description>The Kindred gains the ability to claim a location unowned or that they own as their Domicile. The location can be upto one 10ft cube per level. The domicile must be a completely enclosed space, but may have a open entreance, IE as small cottage, a cave, etc. The process of claiming domicile they own takes an 8 hour ritual. If a the domicile is unowned the ritual takes 8 hours of effort each day over a 1 week period. While in the domicile any levels of exhaustion gained from Kindred Curse are temporary and recover completely after a long rest, or recover 1 per short rest. This does not effect exhaustion gained while outside of the Kindred Domicile. While in the domicile the kindred may inflict disadvantage on any… (See full feature in builder.)</description>
+    </sheet>
+  </element>
+  <element name="Nightwalker Form" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_NIGHTWALKER_FORM">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:20]</requirements>
+    <prerequisite>Kindred level 20</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 20th level</em>
+      </p>
+      <p>The kindred gain the abilty to polymorph into a Huge nightwalker once per long rest. While in nightwalker form, the kindred has the following traits. Its walking speed is 40ft It has a flying speed of 40 feet. It gains a 15ft reach Huge Size</p>
+      <p>Damage Resistances: acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks Damage Immunities: necrotic, poison Condition Immunities: exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained Enervating Strike: Gain a melee attack that deals 5d8 necrotic damage. The target must succeed on a Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. Finger of Doom: The kindred expends 3 HPD and points at one creature it can see within 300 feet of it. The target must succeed on a Wisdom saving throw or take 26 (4d12) necrotic damage and become frightened until the end of the kindred's next turn. While frightened in this way, the creature is also paralyzed. If a target's saving throw is successful, the target is immune to the kindred's Finger of Doom for the next 24 hours. Annihilating Aura: Any creature that starts its turn within 30 feet of the kindred must succeed on a Constitution saving throw or take 4d6 necrotic damage and grant the kindred advantage on attack rolls against it until the start of the creature's next turn. Undead are immune to this aura. Life Eater: A creature reduced to 0 hit points from damage dealt by the kindred dies and can't be revived by any means short of a wish spell. Blind Apocalypse: The kindred no longer identifies anyone as allies. To leave this form the kindred must make a wisdom save, with disadvantage, against their kindred DC. If they fail this save on a natural 1 they cannot make the save again for 24 hours. If they failed the save with a natural 1 they also consider all living things as enemies and attack on sight.</p>
+    </description>
+    <sheet>
+      <description>The kindred gain the abilty to polymorph into a Huge nightwalker once per long rest. While in nightwalker form, the kindred has the following traits. Its walking speed is 40ft It has a flying speed of 40 feet. It gains a 15ft reach Huge Size Damage Resistances: acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks Damage Immunities: necrotic, poison Condition Immunities: exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained Enervating Strike: Gain a melee attack that deals 5d8 necrotic damage. The target must succeed on a Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This… (See full feature in builder.)</description>
+    </sheet>
+    <setters>
+      <set name="allow duplicate">true</set>
+    </setters>
+  </element>
+  <element name="Night Domain" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_NIGHT_DOMAIN">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:13],ID_HOMEBREW_GMBINDER_KINDRED_POWER_KINDRED_DOMICILE</requirements>
+    <prerequisite>Kindred level 13, Kindred Domicile</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 13th level, Kindred Domicile</em>
+      </p>
+      <p>Their kindred domicile does not have a size limit as long as it is a complete structure. If the kindred owns the land their Kindred Domicile is on, that entire plot of land is a Night Domain. If the domain is in unowned land then the night domain is a radius 1 miler per 4 levels from the Kindred Domicile. The Kindred Domicile benefits form all benefits of Night Domain. Any living creature in the night domain has disadvantage on the first roll made each turn. Any undead creature in the night domain has advantage on the first roll made each turn. Any necrotic damage inflicted in the domain is increased by the kindreds charisma modifier.</p>
+    </description>
+    <sheet>
+      <description>Their kindred domicile does not have a size limit as long as it is a complete structure. If the kindred owns the land their Kindred Domicile is on, that entire plot of land is a Night Domain. If the domain is in unowned land then the night domain is a radius 1 miler per 4 levels from the Kindred Domicile. The Kindred Domicile benefits form all benefits of Night Domain. Any living creature in the night domain has disadvantage on the first roll made each turn. Any undead creature in the night domain has advantage on the first roll made each turn. Any necrotic damage inflicted in the domain is increased by the kindreds charisma modifier.</description>
+    </sheet>
+  </element>
+  <element name="Sanguine Lord Predation" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_SANGUINE_LORD_PREDATION">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:20],ID_HOMEBREW_GMBINDER_KINDRED_POWER_VICTORIOUS_INVIGORATION</requirements>
+    <prerequisite>Kindred level 20, Victorious Invigoration</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 20th level, Victorious Invigoration</em>
+      </p>
+      <p>The kindred's blood surges as you reap your way through your enemies. When the kindred activates Victorious Invigoration, instead of its normal effect, they may expend 1 HPD gain the following benefits for 1 minute. Its walking speed increases by 10ft. Its unarmed strikes applies a bleeding condition, this condition deals 2d6 damage at the start of the creatures turn. It has darkvision It has advantage against anyone taking damage due to bleeding. It gains 15 temporary hit points on any round it starts its turn adjacent to a creature with the bleeding condition.</p>
+    </description>
+    <sheet>
+      <description>The kindred's blood surges as you reap your way through your enemies. When the kindred activates Victorious Invigoration, instead of its normal effect, they may expend 1 HPD gain the following benefits for 1 minute. Its walking speed increases by 10ft. Its unarmed strikes applies a bleeding condition, this condition deals 2d6 damage at the start of the creatures turn. It has darkvision It has advantage against anyone taking damage due to bleeding. It gains 15 temporary hit points on any round it starts its turn adjacent to a creature with the bleeding condition.</description>
+    </sheet>
+  </element>
+  <element name="Scarlet Lightning" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_SCARLET_LIGHTNING">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred gains the ability to cast the cantrip shocking grasp using kindred level to determine caster level. The lightning produced has a sickly black and red tone. The kindred may use shocking grasp at range but the damage die is reduced by 1 step per 30ft from the target the kindred is. Touch = d8, 5-30ft = d6, 31-60ft d4, 61-90 d2, 91-120ft 1 damage per die.</p>
+    </description>
+    <sheet>
+      <description>The kindred gains the ability to cast the cantrip shocking grasp using kindred level to determine caster level. The lightning produced has a sickly black and red tone. The kindred may use shocking grasp at range but the damage die is reduced by 1 step per 30ft from the target the kindred is. Touch = d8, 5-30ft = d6, 31-60ft d4, 61-90 d2, 91-120ft 1 damage per die.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP"/>
+    </rules>
+  </element>
+  <element name="Siphon of Scarlet Lightning" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_SIPHON_OF_SCARLET_LIGHTNING">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:5],ID_HOMEBREW_GMBINDER_KINDRED_POWER_SCARLET_LIGHTNING</requirements>
+    <prerequisite>Kindred level 5, Scarlet Lightning</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 5th level, Scarlet Lightning</em>
+      </p>
+      <p>Scarlet Lightning's damage is no longer reduced by distance, but is still limited to 120ft. Vampiric Consumption can be triggered on Scarlet Lighting.</p>
+    </description>
+    <sheet>
+      <description>Scarlet Lightning's damage is no longer reduced by distance, but is still limited to 120ft. Vampiric Consumption can be triggered on Scarlet Lighting.</description>
+    </sheet>
+  </element>
+  <element name="Storm of Scarlet Ire" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_STORM_OF_SCARLET_IRE">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:13],ID_HOMEBREW_GMBINDER_KINDRED_POWER_SCARLET_LIGHTNING,[level:10]</requirements>
+    <prerequisite>Kindred level 13, Scarlet Lightning, Mist Form (Kindred 10)</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 13th level, Scarlet Lightning, Mist Form</em>
+      </p>
+      <p>When entering mist form the kindred may expend 1 HPD,</p>
+      <p>The supplied PDF ends this ability after "When entering mist form the kindred may expend 1 HPD,". No additional mechanical effect is specified.</p>
+    </description>
+    <sheet>
+      <description>When entering mist form the kindred may expend 1 HPD, The supplied PDF ends this ability after "When entering mist form the kindred may expend 1 HPD,". No additional mechanical effect is specified.</description>
+    </sheet>
+  </element>
+  <element name="Strength of Blood" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_STRENGTH_OF_BLOOD">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred may gain advantage on your next athletics, strength, or Constitution check made before the end of your next turn. Additionally you may expend a HPD to add 5 to the total. This may be used once between each rest.</p>
+    </description>
+    <sheet>
+      <description>The kindred may gain advantage on your next athletics, strength, or Constitution check made before the end of your next turn. Additionally you may expend a HPD to add 5 to the total. This may be used once between each rest.</description>
+    </sheet>
+    <setters>
+      <set name="allow duplicate">true</set>
+    </setters>
+  </element>
+  <element name="Taste for Blood" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_TASTE_FOR_BLOOD">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred feel invigorated from your attacks. When you hit with a melee attack, you may gain temporary HP equal to your proficiency bonus + your charisma modifier</p>
+    </description>
+    <sheet>
+      <description>The kindred feel invigorated from your attacks. When you hit with a melee attack, you may gain temporary HP equal to your proficiency bonus + your charisma modifier</description>
+    </sheet>
+  </element>
+  <element name="Thrill of Victory" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_THRILL_OF_VICTORY">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:13],ID_HOMEBREW_GMBINDER_KINDRED_POWER_VICTORIOUS_INVIGORATION</requirements>
+    <prerequisite>Kindred level 13, Victorious Invigoration</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: Victorious Invigoration, 13th level</em>
+      </p>
+      <p>Victorious Invigoration no longer has a limit to how many times it may be used.</p>
+    </description>
+    <sheet>
+      <description>Victorious Invigoration no longer has a limit to how many times it may be used.</description>
+    </sheet>
+  </element>
+  <element name="Umbral Escape" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_UMBRAL_ESCAPE">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:11],[level:10]</requirements>
+    <prerequisite>Kindred level 11, Mist Form (Kindred 10)</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 11th level, Mist form</em>
+      </p>
+      <p>Upon taking damage that would be fatal, the kindred may as a reaction change to mist form and instantly take a move action. A corpse is left behind in a form appropiate for the death, it decomposes into ash after 1 minute. The vampire must make a deception check with +5 to make the attacker and any observer believe the kindred was slain. The kindred is left with 1 HP after preforming an umbral escape. They remain in mist form until their HP is at or above their bloodied value. This may be used once per long rest.</p>
+    </description>
+    <sheet>
+      <description>Upon taking damage that would be fatal, the kindred may as a reaction change to mist form and instantly take a move action. A corpse is left behind in a form appropiate for the death, it decomposes into ash after 1 minute. The vampire must make a deception check with +5 to make the attacker and any observer believe the kindred was slain. The kindred is left with 1 HP after preforming an umbral escape. They remain in mist form until their HP is at or above their bloodied value. This may be used once per long rest.</description>
+    </sheet>
+    <setters>
+      <set name="allow duplicate">true</set>
+    </setters>
+  </element>
+  <element name="Unnatural Vitality" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_UNNATURAL_VITALITY">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred gains +2 to death saving throws and proficiency on constitution saves.</p>
+    </description>
+    <sheet>
+      <description>The kindred gains +2 to death saving throws and proficiency on constitution saves.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION"/>
+    </rules>
+  </element>
+  <element name="Uplift Kindred Spawn" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_UPLIFT_KINDRED_SPAWN">
+    <supports>Kindred Vampiric Power</supports>
+    <requirements>[level:11],ID_HOMEBREW_GMBINDER_KINDRED_POWER_IMPERFECT_KINDRED_SPAWN</requirements>
+    <prerequisite>Kindred level 11, Imperfect Kindred Spawn</prerequisite>
+    <description>
+      <p>
+        <em>Prerequisite: 11th level, Imperfect Kindred Spawn.</em>
+      </p>
+      <p>The kindred may expend 1 HPD per 2 levels of a kindred spawn to make it permanent as a 1 round action. The kindred spawn no longer has a limited duration, but must trade one existing level for 1 level in the kindred class. They also are treated as charmed not dominated. However if they disobey the kindred they instantly gain one level of exhaustion. Each hour they take another level of exhaustion until they cede to the kindreds command. The kindred may release the spawn from their control by feeding the spawn the kindred's blood, consuming all current HPD. This is a 1 minute process that ends in the spawn losing disadvantage on rolls, gaining the ability to trade any class levels for kindred levels, and the spawn no longer takes levels of exhaustion for disobeying the kindred.</p>
+    </description>
+    <sheet>
+      <description>The kindred may expend 1 HPD per 2 levels of a kindred spawn to make it permanent as a 1 round action. The kindred spawn no longer has a limited duration, but must trade one existing level for 1 level in the kindred class. They also are treated as charmed not dominated. However if they disobey the kindred they instantly gain one level of exhaustion. Each hour they take another level of exhaustion until they cede to the kindreds command. The kindred may release the spawn from their control by feeding the spawn the kindred's blood, consuming all current HPD. This is a 1 minute process that ends in the spawn losing disadvantage on rolls, gaining the ability to trade any class levels for kindred levels, and the spawn… (See full feature in builder.)</description>
+    </sheet>
+  </element>
+  <element name="Victorious Invigoration" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_VICTORIOUS_INVIGORATION">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred's blood surges as you reap your way through your enemies. When you kill or bloody an enemy, you may gain one of the following benefits. This may be used their proficiency, . Move up to your full move speed with out provoking attacks of opportunity. Gain temporary HP equal to 5 + 1/2 your level Gain advantage to attack rolls until the end of your next turn.</p>
+    </description>
+    <sheet>
+      <description>The kindred's blood surges as you reap your way through your enemies. When you kill or bloody an enemy, you may gain one of the following benefits. This may be used their proficiency, . Move up to your full move speed with out provoking attacks of opportunity. Gain temporary HP equal to 5 + 1/2 your level Gain advantage to attack rolls until the end of your next turn.</description>
+    </sheet>
+    <setters>
+      <set name="allow duplicate">true</set>
+    </setters>
+  </element>
+  <element name="Wrath of the Master" type="Class Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_POWER_WRATH_OF_THE_MASTER">
+    <supports>Kindred Vampiric Power</supports>
+    <description>
+      <p>The kindred's attacks hit with a resounding blow. When the kindred hits with a melee attack, they may move the target they hit 5ft in any direction.</p>
+    </description>
+    <sheet>
+      <description>The kindred's attacks hit with a resounding blow. When the kindred hits with a melee attack, they may move the target they hit 5ft in any direction.</description>
+    </sheet>
+  </element>
+  <element name="Ausgrei" type="Archetype" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_AUSGREI">
+    <supports>Kindred Bloodline</supports>
+    <description>
+      <p>Ausgrei are known of their superior physical prowess. These primal warriors challenge each other to bouts of combat and tests of strength. They also find kinship with predatory animals, and some hold say of regions through the beasts they command.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_MIGHT" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_PREDATOR" level="7"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_STRONG_BLOOD" level="11"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_SAVAGE_STRIDE" level="14"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_BLOOD_MOON_HUNT" level="17"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_LORD_OF_MIGHT" level="20"/>
+    </rules>
+  </element>
+  <element name="Might" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_MIGHT">
+    <description>
+      <p>Upon choosing Ausgrei the kindred gains the following traits: +2 damage on attacks. Advantage on strength checks</p>
+    </description>
+    <sheet>
+      <description>Upon choosing Ausgrei the kindred gains the following traits: +2 damage on attacks. Advantage on strength checks</description>
+    </sheet>
+  </element>
+  <element name="Predator" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_PREDATOR">
+    <description>
+      <p>Beginning at the 7th level the kindred gains the following: Proficiency in nature if they did not already have it. Advantage on nature checks to calm an animal. Advantage on nature checks to track.</p>
+    </description>
+    <sheet>
+      <description>Beginning at the 7th level the kindred gains the following: Proficiency in nature if they did not already have it. Advantage on nature checks to calm an animal. Advantage on nature checks to track.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE"/>
+    </rules>
+  </element>
+  <element name="Strong Blood" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_STRONG_BLOOD">
+    <description>
+      <p>Upon reaching the 11th level the kindred no longer take levels of exhaustion in sunlight, instead you gain disadvantage to all rolls when not properly covered.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 11th level the kindred no longer take levels of exhaustion in sunlight, instead you gain disadvantage to all rolls when not properly covered.</description>
+    </sheet>
+  </element>
+  <element name="Savage Stride" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_SAVAGE_STRIDE">
+    <description>
+      <p>At the 14th level, after the kindred reduces an enemy to bloodied or 0 hit points, the kindred can expend 1 HPD to immediately escape binds and surprise its enemies. Any effect that slows, restricts, or immobilizes instantly ends, this cannot overcome kindred curse. The kindred moves its speed without provoking attacks of opportunity. They gain advantage against any enemy they end their movement adjacent to, until the end of their next turn.</p>
+    </description>
+    <sheet>
+      <description>At the 14th level, after the kindred reduces an enemy to bloodied or 0 hit points, the kindred can expend 1 HPD to immediately escape binds and surprise its enemies. Any effect that slows, restricts, or immobilizes instantly ends, this cannot overcome kindred curse. The kindred moves its speed without provoking attacks of opportunity. They gain advantage against any enemy they end their movement adjacent to, until the end of their next turn.</description>
+    </sheet>
+  </element>
+  <element name="Blood Moon Hunt" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_BLOOD_MOON_HUNT">
+    <description>
+      <p>Starting at the 17th level, the kindred may expend 6 HPD to invoke the blood moon as a 2 round action. All with in 3 miles of the kindred see the moon shift a red color, or the sun eclipse casting the area in red. This is centered on the kindred at the time of activating this ability. While in the red light the kindred gains the following benefits. It can sense any living creature in the red light, knowing their exact location, this does not count as having sight. All of its speeds are 300ft. It gains advantage on attacks. Its unarmed strike damage increases from 1 to 3d6. Its unarmed strikes steal 1 HPD.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 17th level, the kindred may expend 6 HPD to invoke the blood moon as a 2 round action. All with in 3 miles of the kindred see the moon shift a red color, or the sun eclipse casting the area in red. This is centered on the kindred at the time of activating this ability. While in the red light the kindred gains the following benefits. It can sense any living creature in the red light, knowing their exact location, this does not count as having sight. All of its speeds are 300ft. It gains advantage on attacks. Its unarmed strike damage increases from 1 to 3d6. Its unarmed strikes steal 1 HPD.</description>
+    </sheet>
+  </element>
+  <element name="Lord of Might" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_AUSGREI_LORD_OF_MIGHT">
+    <description>
+      <p>Upon reaching the 20th level, the kindred always make unarmed attacks with advantage. They cannot lose advantage with unarmed attacks. +4 strength, their maximum is now 24 with strength.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 20th level, the kindred always make unarmed attacks with advantage. They cannot lose advantage with unarmed attacks. +4 strength, their maximum is now 24 with strength.</description>
+    </sheet>
+    <rules>
+      <stat name="strength" value="4"/>
+    </rules>
+  </element>
+  <element name="Cruorki" type="Archetype" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_CRUORKI">
+    <supports>Kindred Bloodline</supports>
+    <description>
+      <p>Cruorki are known as healers. They are both known for their malicious streak and being kind caring. They have produced some of the most horrifying vampires as well as the kindest ones.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_HEALER" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_DOCTOR" level="7"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_PURE_OF_BLOOD" level="11"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_SANGUINE_LINK" level="14"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_BLOOD_OF_MY_BLOOD" level="17"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_DOCTOR_S_WISDOM" level="20"/>
+    </rules>
+  </element>
+  <element name="Healer" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_HEALER">
+    <description>
+      <p>Upon choosing Cruorki the kindred gains the following traits: Proficiency in medicine if they did not already have it. When attempting stabilize someone you have advantage. During a short rest you may make a medicine check DC 10. On success any ally that spends HPD to heal, heals a minimum of half the die's maximum value, the die is still rolled.</p>
+    </description>
+    <sheet>
+      <description>Upon choosing Cruorki the kindred gains the following traits: Proficiency in medicine if they did not already have it. When attempting stabilize someone you have advantage. During a short rest you may make a medicine check DC 10. On success any ally that spends HPD to heal, heals a minimum of half the die's maximum value, the die is still rolled.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE"/>
+    </rules>
+  </element>
+  <element name="Doctor" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_DOCTOR">
+    <description>
+      <p>Beginning at the 7th level the kindred gains the following: Proficiency in Insight if they did not already have it. Advantage on Insight checks when figuring out if someone omitted information. When making a medicine check as part of a short rest you may gain 1 HPD per 2 HPD your allies used.</p>
+    </description>
+    <sheet>
+      <description>Beginning at the 7th level the kindred gains the following: Proficiency in Insight if they did not already have it. Advantage on Insight checks when figuring out if someone omitted information. When making a medicine check as part of a short rest you may gain 1 HPD per 2 HPD your allies used.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT"/>
+    </rules>
+  </element>
+  <element name="Pure of Blood" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_PURE_OF_BLOOD">
+    <description>
+      <p>Upon reaching the 11th level the kindred no longer take levels of exhaustion in sunlight, instead you gain disadvantage to all rolls when not properly covered.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 11th level the kindred no longer take levels of exhaustion in sunlight, instead you gain disadvantage to all rolls when not properly covered.</description>
+    </sheet>
+  </element>
+  <element name="Sanguine Link" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_SANGUINE_LINK">
+    <description>
+      <p>At the 14th level, the kindred can expend 2 HPD to establish a Sanguine Link. The kindred has absolute control over all healing that occurs with-in the link. The kindred can make an unarmed attack that deals no damage to add an unwilling target to the link, or add any number of adjacent willing targets as a bonus action. Each additional member of the link costs an additional HPD, willing allies may choose to pay the cost. Any time hit points are healed for a member of the link the kindred may redirect any amount of that healing to another member of the link. The kindred's abilities that grant healing or temporary hit points also trigger when a member of the link causes the trigger. This requires concentration. You can only maintain this concentration your proficiency bonus number of rounds</p>
+    </description>
+    <sheet>
+      <description>At the 14th level, the kindred can expend 2 HPD to establish a Sanguine Link. The kindred has absolute control over all healing that occurs with-in the link. The kindred can make an unarmed attack that deals no damage to add an unwilling target to the link, or add any number of adjacent willing targets as a bonus action. Each additional member of the link costs an additional HPD, willing allies may choose to pay the cost. Any time hit points are healed for a member of the link the kindred may redirect any amount of that healing to another member of the link. The kindred's abilities that grant healing or temporary hit points also trigger when a member of the link causes the trigger. This requires concentration. You… (See full feature in builder.)</description>
+    </sheet>
+  </element>
+  <element name="Blood of My Blood" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_BLOOD_OF_MY_BLOOD">
+    <description>
+      <p>Starting at the 17th level, the kindred gains the ability to enter bond with another. Entering the bond requires they spend 7 consecutive long rests in contact with each other. At the conclusion the kindred no longer is affected by Sunlight Hypersensitivity, Forbiddance, or Running Water, and no longer require sustenance. You no longer need to establish a sanguine link, you and your other are permanently linked, and concentration is only required to add targets. This bond also allows you to activate any of your class features treating</p>
+    </description>
+    <sheet>
+      <description>Starting at the 17th level, the kindred gains the ability to enter bond with another. Entering the bond requires they spend 7 consecutive long rests in contact with each other. At the conclusion the kindred no longer is affected by Sunlight Hypersensitivity, Forbiddance, or Running Water, and no longer require sustenance. You no longer need to establish a sanguine link, you and your other are permanently linked, and concentration is only required to add targets. This bond also allows you to activate any of your class features treating</description>
+    </sheet>
+  </element>
+  <element name="Doctor's Wisdom" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_CRUORKI_DOCTOR_S_WISDOM">
+    <description>
+      <p>Upon reaching the 20th level, the kindred always make medicine checks with advantage. They cannot lose advantage with medicine checks. +4 Wisdom, their maximum is now 24 with Wisdom.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 20th level, the kindred always make medicine checks with advantage. They cannot lose advantage with medicine checks. +4 Wisdom, their maximum is now 24 with Wisdom.</description>
+    </sheet>
+    <rules>
+      <stat name="wisdom" value="4"/>
+    </rules>
+  </element>
+  <element name="Nosfursi" type="Archetype" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_NOSFURSI">
+    <supports>Kindred Bloodline</supports>
+    <description>
+      <p>Nosfursi are one of the eldest bloodlines. Their age is not one of masquerade but one of shadow. Lost to ages carving a bloody path through the shadow</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_ASSASSINS" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_WORLD_SHADOWS" level="7"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_LOST_IN_THE_SHADOWS" level="11"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_CLAIM_IN_DARKNESS" level="14"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_ABSOLUTE_VOID" level="17"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_ASSASSIN_S_ALACRITY" level="20"/>
+    </rules>
+  </element>
+  <element name="Assassins" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_ASSASSINS">
+    <description>
+      <p>Upon choosing Nosfursi the kindred gains the following traits: Proficiency in stealth if they did not already have it. +2 damage on attacks you have advantage on. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it and you don't have disadvantage on the attack roll.</p>
+    </description>
+    <sheet>
+      <description>Upon choosing Nosfursi the kindred gains the following traits: Proficiency in stealth if they did not already have it. +2 damage on attacks you have advantage on. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it and you don't have disadvantage on the attack roll.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
+    </rules>
+  </element>
+  <element name="World Shadows" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_WORLD_SHADOWS">
+    <description>
+      <p>Beginning at the 7th level the kindred gains the following: Proficiency in Arcana if they did not already have it. Advantage on stealth checks when you move 10ft or less on that turn, or if you are not in combat.</p>
+    </description>
+    <sheet>
+      <description>Beginning at the 7th level the kindred gains the following: Proficiency in Arcana if they did not already have it. Advantage on stealth checks when you move 10ft or less on that turn, or if you are not in combat.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA"/>
+    </rules>
+  </element>
+  <element name="Lost in the Shadows" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_LOST_IN_THE_SHADOWS">
+    <description>
+      <p>Upon reaching the 11th level the kindred gains immunity to necrotic damage. For every 12 point of necrotic damage you deal you gain 1 HPD.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 11th level the kindred gains immunity to necrotic damage. For every 12 point of necrotic damage you deal you gain 1 HPD.</description>
+    </sheet>
+  </element>
+  <element name="Claim in Darkness" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_CLAIM_IN_DARKNESS">
+    <description>
+      <p>At the 14th level, when making an attack against a target that is unaware of you may expend 3 HPD. If you do roll 1d12 per kindred level, if the result would be enough necrotic damage to kill them then it does. If it would not then not damage is dealt. If killed this way the body disappears into the Shadowfel. You always know the location of such bodies. You may spend 2 HPD to cast plane shift and travel to or from the Shadowfel. If in the Shadowfel returning to your home plane has no cost.</p>
+    </description>
+    <sheet>
+      <description>At the 14th level, when making an attack against a target that is unaware of you may expend 3 HPD. If you do roll 1d12 per kindred level, if the result would be enough necrotic damage to kill them then it does. If it would not then not damage is dealt. If killed this way the body disappears into the Shadowfel. You always know the location of such bodies. You may spend 2 HPD to cast plane shift and travel to or from the Shadowfel. If in the Shadowfel returning to your home plane has no cost.</description>
+    </sheet>
+  </element>
+  <element name="Absolute Void" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_ABSOLUTE_VOID">
+    <description>
+      <p>Starting at the 17th level, the kindred gains the ability to expend 4 HPD to enter an aura. Anyone in with in 30 feet of the kindred is affected by the aura. Anyone in the aura takes 2d12 + charisma modifier necrotic damage. There is no light in the aura and anything short of True Seeing spell cannot grant sight in the area. This requires concentration. This ability lasts the kindred's proficiency bonus rounds.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 17th level, the kindred gains the ability to expend 4 HPD to enter an aura. Anyone in with in 30 feet of the kindred is affected by the aura. Anyone in the aura takes 2d12 + charisma modifier necrotic damage. There is no light in the aura and anything short of True Seeing spell cannot grant sight in the area. This requires concentration. This ability lasts the kindred's proficiency bonus rounds.</description>
+    </sheet>
+  </element>
+  <element name="Assassin's Alacrity" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_NOSFURSI_ASSASSIN_S_ALACRITY">
+    <description>
+      <p>Upon reaching the 20th level, the kindred always make stealth checks with advantage. They cannot lose advantage with stealth checks. +4 Dexterity, their maximum is now 24 with charisma.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 20th level, the kindred always make stealth checks with advantage. They cannot lose advantage with stealth checks. +4 Dexterity, their maximum is now 24 with charisma.</description>
+    </sheet>
+    <rules>
+      <stat name="dexterity" value="4"/>
+    </rules>
+  </element>
+  <element name="Velkyr" type="Archetype" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_VELKYR">
+    <supports>Kindred Bloodline</supports>
+    <description>
+      <p>Velkyr are an ancient bloodline that has escaped notice for much of time due to their talent for blending in. Among kindred hunters they are considered one of the most dangerous for this very reason. Velkyr often entrench themselves in high society, favoring finery, and indulgence.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_BEGUILING" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_SHADOWED_FIEND" level="7"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_TRICK_THE_SUN" level="11"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_PRESENCE_OF_GRANDEUR" level="14"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_GLORIOUS_PREDATION" level="17"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_MONARCH_S_SPLENDOR" level="20"/>
+    </rules>
+  </element>
+  <element name="Beguiling" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_BEGUILING">
+    <description>
+      <p>Upon choosing Velkyr the kindred gains the following traits: Proficiency in deception if they did not already have it. When making checks to pass as specific person of your same race you have advantage. +2 damage on attacks you have advantage on.</p>
+    </description>
+    <sheet>
+      <description>Upon choosing Velkyr the kindred gains the following traits: Proficiency in deception if they did not already have it. When making checks to pass as specific person of your same race you have advantage. +2 damage on attacks you have advantage on.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION"/>
+    </rules>
+  </element>
+  <element name="Shadowed Fiend" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_SHADOWED_FIEND">
+    <description>
+      <p>Beginning at the 7th level the kindred gains the following: Proficiency in stealth if they did not already have it. Advantage on stealth checks when you move 10ft or less on that turn, or if you are not in combat.</p>
+    </description>
+    <sheet>
+      <description>Beginning at the 7th level the kindred gains the following: Proficiency in stealth if they did not already have it. Advantage on stealth checks when you move 10ft or less on that turn, or if you are not in combat.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
+    </rules>
+  </element>
+  <element name="Trick the Sun" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_TRICK_THE_SUN">
+    <description>
+      <p>Upon reaching the 11th level the kindred no longer take levels of exhaustion in sunlight, instead you gain disadvantage to all rolls when not properly covered.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 11th level the kindred no longer take levels of exhaustion in sunlight, instead you gain disadvantage to all rolls when not properly covered.</description>
+    </sheet>
+  </element>
+  <element name="Presence of Grandeur" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_PRESENCE_OF_GRANDEUR">
+    <description>
+      <p>At the 14th level, the kindred can expend 2 HPD to exude aura of command. Anyone with in 15 feet of the kindred cannot make attacks of opportunity unless the kindred allows it. Whenever an enemy ends its turn in the aura, the kindred may as a no action move that enemy 10ft with in the aura. This requires concentration. This ability lasts the kindred's proficiency bonus rounds.</p>
+    </description>
+    <sheet>
+      <description>At the 14th level, the kindred can expend 2 HPD to exude aura of command. Anyone with in 15 feet of the kindred cannot make attacks of opportunity unless the kindred allows it. Whenever an enemy ends its turn in the aura, the kindred may as a no action move that enemy 10ft with in the aura. This requires concentration. This ability lasts the kindred's proficiency bonus rounds.</description>
+    </sheet>
+  </element>
+  <element name="Glorious Predation" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_GLORIOUS_PREDATION">
+    <description>
+      <p>Starting at the 17th level, the kindred gains the ability to expend 4 HPD to enter an aura. Anyone in with in 10 feet of the kindred is affected by the aura. If anyone willingly tries to leave the aura the kindred can choose to allow the movement, deal 2d10 psychic damage, or force them prone, charisma save negates the effect. This requires concentration. This ability lasts the kindred's proficiency bonus rounds.</p>
+    </description>
+    <sheet>
+      <description>Starting at the 17th level, the kindred gains the ability to expend 4 HPD to enter an aura. Anyone in with in 10 feet of the kindred is affected by the aura. If anyone willingly tries to leave the aura the kindred can choose to allow the movement, deal 2d10 psychic damage, or force them prone, charisma save negates the effect. This requires concentration. This ability lasts the kindred's proficiency bonus rounds.</description>
+    </sheet>
+  </element>
+  <element name="Monarch's Splendor" type="Archetype Feature" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_ARCHETYPE_FEATURE_VELKYR_MONARCH_S_SPLENDOR">
+    <description>
+      <p>Upon reaching the 20th level, the kindred always make deception checks with advantage. They cannot lose advantage with deception checks. +4 Charisma, their maximum is now 24 with charisma.</p>
+    </description>
+    <sheet>
+      <description>Upon reaching the 20th level, the kindred always make deception checks with advantage. They cannot lose advantage with deception checks. +4 Charisma, their maximum is now 24 with charisma.</description>
+    </sheet>
+    <rules>
+      <stat name="charisma" value="4"/>
+    </rules>
+  </element>
+</elements>
