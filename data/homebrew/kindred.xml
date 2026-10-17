@@ -4,6 +4,10 @@
     <name>Kindred — GM Binder homebrew</name>
     <description>Unofficial 5e Kindred class, four bloodlines and Vampiric Powers transcribed from the provided GM Binder PDF.</description>
     <author>Original author not stated in supplied PDF</author>
+    <update version="0.1.1">
+      <file name="kindred.xml"
+            url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/main/data/homebrew/kindred.xml" />
+    </update>
   </info>
   <element name="Kindred" type="Class" source="Kindred (GM Binder Homebrew)" id="ID_HOMEBREW_GMBINDER_KINDRED_CLASS">
     <description>
