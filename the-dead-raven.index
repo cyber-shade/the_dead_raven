@@ -10,5 +10,6 @@
   </info>
   <files>
 	<file name="race-werewolf.xml" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/refs/heads/main/data/homebrew/race-werewolf.xml" />
+	<file name="kindred.xml" url="https://raw.githubusercontent.com/cyber-shade/the_dead_raven/refs/heads/main/data/homebrew/kindred.xml"/>
 	</files>
 </index>
